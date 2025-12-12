@@ -29,8 +29,8 @@ enabled = true
 battery_adc_pin = "P0_04"          # or whatever RMK expects for that ADC pin
 adc_divider_measured = 2000        # 2 MΩ in kΩ
 adc_divider_total   = 2806         # 2 MΩ + 806 kΩ
-[behavior]
-tap_hold = { enable_hrm = true }
+# [behavior]
+# tap_hold = { enable_hrm = true }
 
 [split]
 connection = "ble"
